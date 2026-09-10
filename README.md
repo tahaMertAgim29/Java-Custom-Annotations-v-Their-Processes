@@ -2,7 +2,7 @@
 
 ## Introduction
 This project demonstrates the creation of custom annotations in Java depending on their types such as
-Class, Field (Variable) or Method etc. In this project; class, field and method annotations have been demonstrated
+Class, Field (Variable) or Method etc and the processing of them during execution. In this project; class, field and method annotations have been demonstrated
 
 
 ## Features
