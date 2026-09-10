@@ -55,6 +55,21 @@ Class, Field (Variable) or Method etc and the processing of them during executio
 > `Processor.java` classes in each package are to process the annotations those classes are independent to each other based on the package. Also,
 > Some annotations are dependent to some classes in another package to make it easier to read
 
+## Custom Annotations
+
+Here is the table of custom annotations below declared, used and processed during runtime in the project
+
+|#|Annotation Name|Annotation Level|Packages used in|Explanation|
+|-|----------------|---------------|----------------|-----------|
+|1|Evaluate|Method|methodAnnotation|It is used to make it clear the process of the annotations, showing a simple example for annotations to process during `runtime`|
+|2|AutoIncrement|Field|fieldAnnotation & classAnnotation|It is used to increase the ID value or any type of number value attribute automatically, just like in databases|
+|3|Required|Field|fieldAnnotation & classAnnotation|It is used to make it clear whether the attribute must be valid or not which is in similar to `Not Null` in databases|
+|4|Printable|Method|fieldAnnotation & classAnnotation|It is used to print the relative class variables in packages, in similar to print `toString()` via Annotations|
+|5|Entity|Class|classAnnotation|It is used to imply database entities in custom where there is a parameter named `name` to set the name of table/entity|
+|6|MoreThan|Field|classAnnotation|It is used to imply that the number variable must be more than the variable entered in annottation via `limit` parameter e.g. @MoreThan(limit = 12)|
+|7|LessThan|Field|classAnnotation|It is used to imply that the number variable must be less than the variable entered in annotation via `limit` parameter e.g. @LessThan(limit = 12)|
+
+
 ## Technologies
 ![Java](https://img.shields.io/badge/Java%20-%20%23000000?style=for-the-badge&logo=openjdk&logoColor=white)
 
