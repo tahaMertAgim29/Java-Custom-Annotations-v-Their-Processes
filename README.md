@@ -70,6 +70,10 @@ Here is the table of custom annotations below declared, used and processed durin
 |7|LessThan|Field|classAnnotation|It is used to imply that the number variable must be less than the variable entered in annotation via `limit` parameter e.g. @LessThan(limit = 12)|
 
 
+>[!WARNING]
+> Annotations do not have to have only one annotation level. For example an annotation may have both field and parameter level at the same time depending on how you work with them.
+>In this project, it is just not represented.
+
 ## Technologies
 ![Java](https://img.shields.io/badge/Java%20-%20%23000000?style=for-the-badge&logo=openjdk&logoColor=white)
 
